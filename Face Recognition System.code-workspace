@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "sql12.freesqldatabase.com",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "freesqldatabase",
+				"database": "sql12730185",
+				"username": "sql12730185",
+				"password": "GuJ7gvp6CC",
+				"connectionTimeout": 60
+			}
+		]
+	}
+}
