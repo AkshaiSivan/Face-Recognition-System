@@ -1,6 +1,8 @@
 # Face-Recognition-System
 <h2>Visitor Management System for Gated Communities Using Python and Computer Vision</h2>
 
+Please refer to the [Application Prerequisites](ApplicationPrerequisites.txt) file for application installation and [Project Documentation](Visitor%20Management%20System%20for%20Gated%20Communities.docx) for the project details.
+
 <h3>Application Workflow Diagram</h3>
 
 ![Application Workflow Diagram_Visitor Management System for Gated Communities](https://github.com/user-attachments/assets/0033e64d-ff67-45d0-be20-e98ba6a40433)
@@ -22,5 +24,4 @@
 ![image](https://github.com/user-attachments/assets/22901556-7103-41c5-b5f2-d69a7625ac18)
 
 ![image](https://github.com/user-attachments/assets/b43fb2f2-d33f-434e-8b4b-598a949ba5cc)
-
 
