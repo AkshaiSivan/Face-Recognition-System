@@ -1,0 +1,47 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Create a virtual env by:
+
+create a folder and drag and drop it to the vs code
+python -m venv  .venv
+start a new terminal
+
+2. Install the dependencies/packages from the requirements.txt file, using
+pip install -r requirements.txt 
+
+3. Use www.freesqldatabase.com or a local SQL server (https://dev.mysql.com/downloads/installer/) 
+for the database, and use the server name, password, and table name for the SQL connection
+and update these fields in .env file
+
+example:
+DB_HOST=sql12.freesqldatabase.com
+DB_USERNAME=sqlxyz
+DB_PASSWORD=xyz
+DB_DATABASE=sqlxyzDB
+
+
+4. Run the .py files( or login.py and use "admin" and "password" as credentials)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For generating a requirements.txt for the project
+run
+pip install pipreqs
+pipreqs . --ignore .venv --force
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For converting to a executable file, open CMD on the project directory and
+run
+
+pip install cx_Freeze --upgrade
+pip install --upgrade cx_Freeze mysql-connector-python
+
+
+get the setup.py file and edit the contents 'TCL_LIBRARY' and 'TK_LIBRARY' paths, "include_files", Change the version number for each new msi app build.
+tcl86t.dll, tk86t.dll files can be get from the ----> print(Tcl().eval("info library"))
+
+once the setup. file edit is completed, open cmd on the project folder and run
+python setup.py bdist_msi
+
+after a few min, it will create a "build" and "dist" folders, and the dist folder will have the .msi application
